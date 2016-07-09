@@ -1,0 +1,114 @@
+body{
+	margin: 0px;
+}
+
+/**************
+HEADER
+***************/
+.header{
+	width: 95%;
+	min-height: 50px;
+	margin: 10px auto;
+}
+
+.left{
+	float: left;
+	display: inline;
+	width: 60%;
+}
+
+.right{
+	float: right;
+	width: 40%;
+}
+
+.right ul{
+	display: inline;
+	float:right;
+}
+
+.right ul li {
+	list-style: none;
+	display: inline;
+	color: blue;
+	padding-left: 20px;
+}
+
+.signIn{
+	height: 35px;
+	width: 65px;
+	border: 1px solid blue;
+	font-size: 16px;
+	border-radius: 2px;
+}
+
+.logo{
+	color: #f25000;
+	font-size: 2.7em;
+}
+
+.left input{
+	padding: 6px;
+	width: 300px;
+	position: relative;
+	bottom: 10px;
+	font-size: 16px;
+}
+
+.search{
+
+    font-size: 16px;
+    color: white;
+    width: 80px;
+    background: lightblue;
+    position: relative;
+    bottom: 10px;
+    right: 6px;
+    border: none;
+    padding: 8px;
+}
+
+.cart{
+	border-left: 1px solid lightgrey;
+	padding: 20px;
+}
+
+.navBar {
+	clear:both;
+	width: 100%;
+	border-top:1px solid lightgrey;
+	border-bottom: 1px solid lightgrey;
+	
+}
+
+.navBar ul{
+	padding: 0px;
+
+}
+
+
+.navBar ul li {
+	list-style: none;
+	display: inline;
+	padding-left: 30px;
+}
+
+/**********
+left PANEL
+************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
