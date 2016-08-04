@@ -91,17 +91,272 @@ HEADER
 	list-style: none;
 	display: inline;
 	padding-left: 30px;
+	color: grey;
 }
 
 /**********
-left PANEL
+PANEL 1 
 ************/
 
+.container{
+	width: 95%;
+	margin: 30px auto;
+}
+
+/*panel 1*/
+
+.panel1{
+	width: 17%;
+	float: left;
+}
+
+.panel{
+	background: red;
+	width: 100%;
+	padding: 10px;
+	margin-top: 10px;
+	margin-bottom: 15px;
+}
+
+.panel b {
+	padding-bottom: 10px;
+}
+.panel ul{
+	padding-left: 0px;
+	padding-right: 20px;
+	margin-left: 10px;
+	margin-top: 0px;
+
+}
+
+
+
+.panel ul li{
+	list-style: none;
+	padding-top: 5px;
+}
+
+/*************
+TOP CAT
+*************/
+.topCategories{
+	float: right;
+	width: 79%;
+}
+
+
+.box{
+	width: 100%;
+	background: blue;
+
+
+}
+
+.box div {
+	display: inline-block;
+	position: relative;
+	float: left;
+	margin-right: 20px;
+
+}
+
+
+
+.hNlCon{
+	background: url("http://placehold.it/300x250");
+	width: 30%;
+	height: 250px;
+	
+	
+}
+
+.aNcCon{
+	background: url("http://placehold.it/300x250");
+	width: 30%;
+	height: 250px;
+	
+}
+
+.weddingCon{
+	background: url("http://placehold.it/300x250");
+	width: 30%;
+	height: 250px;
+}
+
+
+
+.hNl{
+   
+
+}
+
+.aNc{
+    
+}
+
+.wedding{
+    
+}
+
+.box2{
+	position: relative;
+	top:10px;	
+	width: 100%;
+
+}
+
+.box2 div {
+	display: inline-block;
+	position: relative;
+	float: left;
+	margin-right: 20px;
+
+}
+
+.clothingCon{
+	background: url("http://placehold.it/300x250");
+	width: 22%;
+	height: 200px;
+	
+}
+
+.partyCon{
+	background: url("http://placehold.it/300x250");
+	width: 22%;
+	height: 200px;
+	
+}
+
+
+
+.jewerlyCon{
+	background: url("http://placehold.it/300x250");
+	width: 22%;
+	height: 200px;
+}
+
+.accesoriesCon{
+	background: url("http://placehold.it/300x250");
+	width: 22%;
+	height: 200px;
+}
 
 
 
 
 
+
+/**********
+PANEL 2 
+************/
+.panelTwo{
+	clear:both;
+}
+
+
+.panel2Span{
+	font-weight: bold;
+}
+
+.panel2{
+	background: red;
+	width: 17%;
+	padding: 10px;
+	margin-top: 10px;
+} 
+
+.panel2 ul {
+	padding: 0px;
+}
+
+
+.panel2 ul li{
+	list-style: none;
+}
+
+.price{
+	border-top: 1px solid lightgrey;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.price input{
+	padding: 5px;
+	width: 25%;
+	font-size: 16px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.coloredButtons{
+	padding-top: 10px;
+	border-top: 1px solid lightgrey;
+	border-bottom: 1px solid lightgrey;
+}
+
+.coloredButtons button{
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+.square{
+	height: 20px;
+	width: 20px;
+	
+	display: inline;
+	border:1px solid lightgrey;
+}
+
+.red{
+	background: red;
+}
+
+.orange{
+	background:orange;
+}
+
+.yellow{
+	background: yellow;
+}
+.green{
+	background: green;
+}
+.blue{
+	background: blue;
+}
+.purple{
+	background: purple;
+}
+.black{
+	background: black;
+}
+.white{
+	background: white;
+}
+
+.orderingOptions{
+	padding-top: 10px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid lightgrey;
+}
+
+.shopLocation{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid lightgrey;
+}
+
+.shipLocation{
+	padding-top: 10px;
+	
+}
+
+select{
+	background: transparent;
+    height: 35px;
+    font-size: 14px;
+    width: 100%;
+}
 
 
 
