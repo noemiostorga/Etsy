@@ -69,46 +69,50 @@
 	</div>
 			
 
-<div class="topCategories">
+	<div class="topCategories">
 
-<span> Top Categories for "whiskey"</span>
-	<div class="box">
-		<div class="hNlCon">
-			<!-- <div class="hNl">Home & Living</div> -->
+	<span> Top Categories for "whiskey"</span>
+		<div class="box">
+			<div class="hNlCon">
+				<div class="topDC">
+					<p>Home & Living</p>
+				</div>
+			</div>
+			
+			<div class="aNcCon">
+					<div class="topDC">
+						<p>arts & collectibles</p>
+					</div>
+			</div>
+
+			<div class="weddingCon">
+					<div class="topDC">
+					<p>weddings</p>
+
+					</div>
+			</div>
+
 		</div>
 		
-		<div class="aNcCon">
-				<!-- <div class="aNc">arts & collectibles</div> -->
-		</div>
+		<div class="box2">	
+			<div class="clothingCon">
+				<div class="bottomDC"><p>Clothing</p></div> 
+			</div>
+		
 
-		<div class="weddingCon">
-				<!-- <div class="wedding">weddings</div> -->
-		</div>
+			<div class="partyCon">
+					<div class="bottomDC"><p>Paper & Party</p></div>
+			</div>
 
-	</div>
-	
-	<div class="box2">	
-		<div class="clothingCon">
-			<!-- <div class="hNl">Home & Living</div> -->
-		</div>
-	
+			<div class="jewerlyCon">
+					<div class="bottomDC"><p>Jewerly</p></div>
+			</div>
 
-		<div class="partyCon">
-				<!-- <div class="aNc">arts & collectibles</div> -->
-		</div>
-
-		<div class="jewerlyCon">
-				<!-- <div class="wedding">weddings</div> -->
-		</div>
-
-		<div class="accesoriesCon">
-				<!-- <div class="wedding">weddings</div> -->
+			<div class="accesoriesCon">
+					<div class="bottomDC"><p>Accesories</p></div>
+			</div>
 		</div>
 	</div>
-
-
-	
-</div>
 
 	<div class="panelTwo">
 		<span class="panel2Span">
@@ -167,17 +171,46 @@
 		</div>
 	  </div>
 
+
+	  <div class="allCategories">
+	  	<div class="allCatSpan">
+	  		<span class="allCatleft">All categories</span>
+	  		<span class="allCatRight">sort by </span>
+	  	</div>
+
+	  	<div class="allCatBoxes">
+	  		
+	  	</div>
+	  </div>
+
 	
-	
+
+	</div>
 
 
 
 
-</div>
+<!--</div>--container-->
 
 
 
 
+
+<script   src="https://code.jquery.com/jquery-3.1.0.min.js"   integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="   crossorigin="anonymous"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/2.2.0/mustache.min.js"></script>
+
+<script src="main.js"></script>
+
+<script type="x-tmpl-mustache" id="informationList">
+
+{{#information}}
+	<div class="captionBox">
+		
+	</div>
+
+{{/information}}
+
+</script>
 
 	
 </body>

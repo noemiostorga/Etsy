@@ -185,23 +185,54 @@ TOP CAT
 
 
 
-.hNl{
-   
+.topDC{
+	width: 100%;
+   	margin: 180px auto;
+	
+}
 
+.topDC p{
+	width: 50%;
+	background: white;
+	text-align: center;
+	margin: 0px auto;
+	padding: 15px;
 }
 
 .aNc{
-    
+    width: 100%;
+   	margin: 180px auto;
+}
+
+.aNc p{
+	width: 50%;
+	background: white;
+	text-align: center;
+	margin: 0px auto;
+	padding: 15px;
 }
 
 .wedding{
-    
+   	width: 100%;
+   	margin: 180px auto;
 }
+
+.wedding p{
+   	width: 50%;
+	background: white;
+	text-align: center;
+	margin: 0px auto;
+	padding: 15px;
+}
+
+
+/*top categories bottom */
 
 .box2{
 	position: relative;
 	top:10px;	
 	width: 100%;
+	
 
 }
 
@@ -210,7 +241,7 @@ TOP CAT
 	position: relative;
 	float: left;
 	margin-right: 20px;
-
+	
 }
 
 .clothingCon{
@@ -219,6 +250,22 @@ TOP CAT
 	height: 200px;
 	
 }
+
+.bottomDC{
+ 	width: 100%;
+   	margin: 130px auto;
+	
+}
+
+.bottomDC p{
+   	width: 50%;
+	background: white;
+	text-align: center;
+	margin: 0px auto;
+	padding: 15px;
+	
+}
+
 
 .partyCon{
 	background: url("http://placehold.it/300x250");
@@ -250,7 +297,8 @@ TOP CAT
 PANEL 2 
 ************/
 .panelTwo{
-	clear:both;
+	width: 17%;
+    
 }
 
 
@@ -260,9 +308,10 @@ PANEL 2
 
 .panel2{
 	background: red;
-	width: 17%;
+	width: 100%;
 	padding: 10px;
 	margin-top: 10px;
+	float: left;
 } 
 
 .panel2 ul {
@@ -358,8 +407,46 @@ select{
     width: 100%;
 }
 
+/*************
+ALL CATEGORIES
+************/
 
 
+.allCategories{
+    float: right;
+    width: 79%;
+    height: 200px;
+    background: blue;
+    border-top: 1px solid black;
+    margin-top: 40px;
+}
+
+.allCatSpan{
+	padding-top: 20px;
+}
+
+
+.allCatLeft{
+	float: left;
+}
+
+.allCatRight{
+	float: right;
+}
+
+/*********
+Caption 
+*******/
+
+.captionBox{
+	height: 200px;
+	width: 22%;
+	background: red;
+	display: inline-block;
+	margin-left: 22px;
+	margin-top: 20px;
+	float:left;
+}
 
 
 
