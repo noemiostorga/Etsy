@@ -11,7 +11,7 @@ $(document).ready(function(){
   console.log(response);
   var information = response.results.map(function(obj){
   			return {
-  				"title": obj.title,
+  				"title": obj.title.substring(0,28) + "...",
   				"url":obj.url,
   				"price": obj.price,
   				"shop": obj.Shop.shop_name,
@@ -20,15 +20,32 @@ $(document).ready(function(){
 
   		
   		})
-  var Data = {
-	"information":information
-};
 
-var Template = $("#informationList").text();
-var listHTML = Mustache.render(Template, Data);
+        var Data = {
+      	"information":information
+         };
 
-$(".allCatBoxes").html(listHTML);
-	})
+        var Template = $("#informationList").text();
+        var listHTML = Mustache.render(Template, Data);
+
+        $(".allCatBoxes").html(listHTML);
+
+  	})
+$(".menu2").hide();
+//on hover over the links
+$(".meenu").hover(function(){
+//remove meenu2
+$(".menu2").show();
+         
+        //, function(){
+        // $(".menu2").hide();
+//when hover away from the link 
+
+//it should go back to normal 
+  
+});
+
+
 
 
 

@@ -89,10 +89,91 @@ HEADER
 
 .navBar ul li {
 	list-style: none;
-	display: inline;
-	padding-left: 30px;
-	color: grey;
+    display: inline;
+    margin-left: 30px;
+    color: grey;
+    padding-bottom: 13px;
 }
+
+.navBar ul li:hover {
+	list-style: none;
+    display: inline;
+    margin-left: 30px;
+    color: grey;
+    border-bottom: 3px solid orange;
+    padding-bottom: 13px;
+    border-bottom: 3px solid orange;
+}
+
+
+.clothesul{
+ display: none;
+  
+}
+
+.clothesul li{
+	color: green;
+}
+
+
+.clothesShow{
+	display:flex;
+ 	flex-direction: column;
+  	flex-wrap: wrap;
+  	position: absolute; 
+  
+}
+
+#clothesShow li{
+	color:green;
+}
+
+.clothes2{
+ display: none;
+}
+
+/**********
+NAVBARS
+**********/
+
+.meenu{
+	display:flex;
+ 	flex-direction: column;
+  	flex-wrap: wrap;
+  	position: relative;
+}
+
+
+.menu2{
+	width: 800px;
+	position: absolute;
+	height: 200px;
+	background:grey;
+	display:none;
+	z-index: 2;
+	margin: 0 auto;
+	top:35px;
+}
+
+.meenu2Show{
+	display:flex;
+ 	flex-direction: column;
+  	flex-wrap: wrap;
+}
+
+.meenu3{
+	display:flex;
+ 	flex-direction: column;
+  	flex-wrap: wrap;
+  	position: relative; 
+}
+
+
+
+
+
+
+
 
 /**********
 PANEL 1 
@@ -415,7 +496,7 @@ ALL CATEGORIES
 .allCategories{
     float: right;
     width: 79%;
-    height: 200px;
+    min-height: 200px;
     background: blue;
     border-top: 1px solid black;
     margin-top: 40px;
@@ -439,15 +520,205 @@ Caption
 *******/
 
 .captionBox{
-	height: 200px;
+	min-height: 200px;
 	width: 22%;
 	background: red;
 	display: inline-block;
 	margin-left: 22px;
 	margin-top: 20px;
 	float:left;
+
 }
 
+.allCatBoxes{
+	position: relative;
+}
+
+
+.image{
+	width: 100%;
+}
+
+.caption{
+	font-size: 12px;
+	padding:5px;
+	margin:0px;
+
+}
+
+.title{
+	text-align: center;
+    line-height: 10px;
+    margin: 0px;
+}
+
+.capLeft{
+	float: left;
+	margin:0px;
+	line-height: 20px;
+}
+
+.capRight{
+	float: right;
+	margin:0px;
+	line-height: 20px;
+}
+
+.related{
+	position: relative;
+	float:left;
+	width: 100%;
+	margin-top: 20px;
+	background: orange;
+}
+
+.relatedDiv{
+	display: inline-flex;
+	float:left;
+
+}
+
+
+.relatedList ul{
+	display: inline;
+	padding:0px;
+	padding-right: 50px;
+}
+
+.relatedDiv ul li{
+	list-style: none;
+}
+
+.more{
+	width: 100%;
+}
+
+.buttons{
+	padding-bottom: 20px;
+}
+
+.buttons button{
+	height: 30px;
+	margin:-2px;
+	display: inline;
+	background: blue;
+	font-weight: grey;
+	font-size: 20px;
+	border:1px solid lightgrey;
+	width: 4%;
+}
+
+footer{
+	width: 100%;
+	background: green;
+	float:left;
+	border-top: 1px solid grey;
+	border-bottom:1px solid grey;
+	display:block;
+}
+
+.subscribeBox{
+	min-height: 100px;
+	background:red;
+	width: 90%;
+	margin:30px auto ;
+	border: 10px solid grey;
+}
+
+.subscribeBox p {
+	text-align: center;
+}
+
+.subscribeBox button {
+	background: orange;
+    color: white;
+    width: 20%;
+    height: 35px;
+    font-size: 16px;
+    border: none;
+}
+
+.other {
+	width: 80%;
+	margin: 0 auto;
+
+}
+
+.other div{
+
+}
+
+.openShopCon{
+	width: 20%;
+	float: left;
+	padding-right: 40px;
+}
+
+.openShop{
+    margin: 0px;
+
+}
+
+.openShop p{
+    margin: 0px;
+}
+
+.openShop button{
+	border: none;
+    background: blue;
+    color: white;
+    font-size: 16px;
+    padding: 5px;
+}
+
+.other ul {
+	padding: 0px;
+}
+
+.other ul li{
+	list-style: none;
+}
+
+.community{
+	float: left;
+	width: 20%;
+}
+
+.community ul {
+	margin: 0px;
+}
+
+.Discover{
+	float: left;
+	width: 20%;
+}
+
+.Discover ul{
+	margin: 0px;
+}
+
+.getToKnow{
+	width: 20%;
+	float: left;
+}
+
+.getToKnow ul{
+	margin: 0px;
+}
+
+.follow ul{
+	padding: 0px;
+}
+
+.lastSection{
+	clear: both;
+	text-align: center;
+}
+
+.lastSection p {
+	display:inline;
+
+}
 
 
 
