@@ -156,9 +156,11 @@ NAVBARS
 	left: 0px;
 }
 
-#menu ul {
-	padding: 0px;
+#menu2 ul{
+	border-right: 1px solid black;
+	width: 30%;
 }
+
 
 #menu2 ul li{
     color: black;
@@ -169,7 +171,6 @@ NAVBARS
     padding-left: 15px;
     padding-top: 10px;
     margin-left: 0px;
-
 }
 
 
@@ -177,7 +178,7 @@ NAVBARS
 #menu2 ul li:hover{
  	border: none;
  	background: red;
- 	width: 30%;
+ 	width: 94%;
   	
 }
 
