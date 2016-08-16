@@ -31,11 +31,12 @@ $(document).ready(function(){
         $(".allCatBoxes").html(listHTML);
 
   	})
-$(".menu2").hide();
+$("#menu2").hide();
 //on hover over the links
 $(".meenu").hover(function(){
 //remove meenu2
-$(".menu2").show();
+$("#menu2").show();
+
          
         //, function(){
         // $(".menu2").hide();
