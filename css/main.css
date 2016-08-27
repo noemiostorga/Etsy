@@ -147,7 +147,7 @@ NAVBARS
 #menu2{
 	width: 800px;
 	position: absolute;
-	height: 200px;
+	min-height: 100px;
 	background:grey;
 	display:none;
 	z-index: 2;
