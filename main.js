@@ -32,19 +32,17 @@ $(document).ready(function(){
 
   	})
 $("#menu2").hide();
-//on hover over the links
-$(".meenu").hover(function(){
-//remove meenu2
-$("#menu2").show();
+// //on hover over the links
+// $(".meenu").hover(function(){
+// //remove meenu2
+// $("#menu2").show();
+// // function(){
+// //         $(".menu2").hide();
+// //when hover away from the link 
 
-         
-        //, function(){
-        // $(".menu2").hide();
-//when hover away from the link 
-
-//it should go back to normal 
+// //it should go back to normal 
   
-});
+// });
 
 
 

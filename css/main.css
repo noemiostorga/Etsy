@@ -205,10 +205,16 @@ NAVBARS
 /**********
 PANEL 1 
 ************/
+.mainContainer{
+	background: rgb(243,243,237);
+	width: 100%;
+}
+
 
 .container{
 	width: 95%;
 	margin: 30px auto;
+	
 }
 
 /*panel 1*/
