@@ -292,9 +292,6 @@ TOP CAT
 
 .box{
 	width: 100%;
-	background: blue;
-
-
 }
 
 .box div {
@@ -308,7 +305,7 @@ TOP CAT
 
 
 .hNlCon{
-	background: url("http://placehold.it/300x250");
+	background: url("https://img0.etsystatic.com/129/0/9997414/il_340x270.874112296_rdpb.jpg");
 	width: 30%;
 	height: 250px;
 	
@@ -316,14 +313,14 @@ TOP CAT
 }
 
 .aNcCon{
-	background: url("http://placehold.it/300x250");
+	background: url("https://img1.etsystatic.com/040/1/5572004/il_340x270.507501391_6at8.jpg");
 	width: 30%;
 	height: 250px;
 	
 }
 
 .weddingCon{
-	background: url("http://placehold.it/300x250");
+	background: url("https://img1.etsystatic.com/134/0/7905522/il_340x270.906278307_339j.jpg");
 	width: 30%;
 	height: 250px;
 }
@@ -390,16 +387,16 @@ TOP CAT
 }
 
 .clothingCon{
-	background: url("http://placehold.it/300x250");
+	background: url("https://img1.etsystatic.com/138/0/11063629/il_340x270.1017615195_fx5s.jpg")no-repeat;
 	width: 22%;
 	height: 200px;
-	
+	background-size: 100%;
 }
 
 .bottomDC{
  	width: 100%;
    	margin: 130px auto;
-	
+	background-size: 100%;
 }
 
 .bottomDC p{
@@ -408,29 +405,31 @@ TOP CAT
 	text-align: center;
 	margin: 0px auto;
 	padding: 15px;
-	
+	background-size: 100%;
 }
 
 
 .partyCon{
-	background: url("http://placehold.it/300x250");
+	background: url("https://img1.etsystatic.com/054/0/9106257/il_340x270.697560403_o27n.jpg")no-repeat;
 	width: 22%;
 	height: 200px;
-	
+	background-size: 100%;
 }
 
 
 
 .jewerlyCon{
-	background: url("http://placehold.it/300x250");
+	background: url("https://img1.etsystatic.com/102/0/11484887/il_340x270.1022697123_f18r.jpg")no-repeat;
 	width: 22%;
 	height: 200px;
+	background-size: 100%;
 }
 
 .accesoriesCon{
-	background: url("http://placehold.it/300x250");
+	background: url("https://img1.etsystatic.com/046/2/9033961/il_340x270.665031811_9fwr.jpg") no-repeat;
 	width: 22%;
 	height: 200px;
+	background-size: 100%;
 }
 
 
