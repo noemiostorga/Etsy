@@ -238,7 +238,7 @@ PANEL 1
 }
 
 .panel{
-	background: red;
+	background: white;
 	width: 100%;
 	padding: 10px;
 	margin-top: 10px;
@@ -263,12 +263,30 @@ PANEL 1
 	padding-top: 5px;
 }
 
+.panel ul li a{
+	color: rgb(76,164,213);
+	text-decoration: none;
+}
+
+.panel ul li a:hover{
+	text-decoration: underline;
+}
+
+
+
+
 /*************
 TOP CAT
 *************/
 .topCategories{
 	float: right;
 	width: 79%;
+}
+
+.topCategories span{
+	font-weight: 500;
+    font-size: 20px;
+    font-family: sans-serif;
 }
 
 
