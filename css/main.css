@@ -564,9 +564,8 @@ ALL CATEGORIES
     float: right;
     width: 79%;
     min-height: 200px;
-    background: blue;
-    border-top: 1px solid black;
-    margin-top: 40px;
+    border-top: 1px solid lightgrey;
+    margin-top: 0px;
 }
 
 .allCatSpan{
@@ -589,7 +588,7 @@ Caption
 .captionBox{
 	min-height: 200px;
 	width: 22%;
-	background: red;
+	background: white;
 	display: inline-block;
 	margin-left: 22px;
 	margin-top: 20px;
