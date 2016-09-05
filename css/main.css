@@ -672,6 +672,16 @@ Caption
 	width: 100%;
 }
 
+.more a{
+	color: rgb(76,164,213);
+	text-decoration: none;
+}
+
+.more a:hover{
+	text-decoration: underline;
+}
+
+
 .buttons{
 	padding-bottom: 20px;
 }
