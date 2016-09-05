@@ -2,6 +2,7 @@ body{
 	margin: 0px;
 	background: rgb(243,243,237);
 	width: 100%;
+	font-family: sans-serif;
 }
 
 /**************
@@ -54,9 +55,10 @@ HEADER
 	border-radius: 2px;
 }
 
-.logo{
+#logo{
 	color: #f25000;
 	font-size: 2.7em;
+	font-family: serif;
 }
 
 .left input{
@@ -401,7 +403,7 @@ TOP CAT
 }
 
 .bottomDC p{
-    width: 46%;
+    width: 50%;
     background: white;
     text-align: center;
     margin: 0px auto;
@@ -593,7 +595,8 @@ Caption
 	margin-left: 22px;
 	margin-top: 20px;
 	float:left;
-
+	padding-bottom: 5px;
+	font-family: sans-serif;
 }
 
 .allCatBoxes{
@@ -616,18 +619,21 @@ Caption
 	text-align: center;
     line-height: 10px;
     margin: 0px;
+    color: black;
 }
 
 .capLeft{
 	float: left;
 	margin:0px;
 	line-height: 20px;
+	color: grey;
 }
 
 .capRight{
 	float: right;
 	margin:0px;
 	line-height: 20px;
+	color: #4CC552;
 }
 
 .related{
@@ -635,7 +641,7 @@ Caption
 	float:left;
 	width: 100%;
 	margin-top: 20px;
-	background: orange;
+	
 }
 
 .relatedDiv{
