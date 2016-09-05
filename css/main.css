@@ -647,9 +647,16 @@ Caption
 .relatedDiv{
 	display: inline-flex;
 	float:left;
-
 }
 
+.relatedDiv ul li a{
+	color: rgb(76,164,213);
+	text-decoration: none;
+}
+
+.relatedDiv ul li a:hover{
+	text-decoration: underline;
+}
 
 .relatedList ul{
 	display: inline;
