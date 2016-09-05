@@ -690,7 +690,7 @@ Caption
 	height: 30px;
 	margin:-2px;
 	display: inline;
-	background: blue;
+	background: transparent;
 	font-weight: grey;
 	font-size: 20px;
 	border:1px solid lightgrey;
@@ -699,10 +699,10 @@ Caption
 
 footer{
 	width: 100%;
-	background: green;
+	background: transparent;
 	float:left;
-	border-top: 1px solid grey;
-	border-bottom:1px solid grey;
+	border-top: 1px solid lightgrey;
+	border-bottom:1px solid lightgrey;
 	display:block;
 }
 
