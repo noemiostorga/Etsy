@@ -719,7 +719,7 @@ footer{
 }
 
 .subscribeBox button {
-	background: orange;
+	background: rgb(38,151,184);
     color: white;
     width: 20%;
     height: 35px;
@@ -754,7 +754,7 @@ footer{
 
 .openShop button{
 	border: none;
-    background: blue;
+    background: rgb(38,151,184);
     color: white;
     font-size: 16px;
     padding: 5px;
