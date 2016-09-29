@@ -43,7 +43,7 @@ HEADER
 .right ul li {
 	list-style: none;
 	display: inline;
-	color: blue;
+	color: rgb(76,164,213);;
 	padding-left: 20px;
 }
 
@@ -55,7 +55,7 @@ HEADER
 	border-radius: 2px;
 }
 
-#logo{
+.logo{
 	color: #f25000;
 	font-size: 2.7em;
 	font-family: serif;
@@ -74,7 +74,7 @@ HEADER
     font-size: 16px;
     color: white;
     width: 80px;
-    background: lightblue;
+    background: rgb(76,164,213);
     position: relative;
     bottom: 10px;
     right: 6px;
@@ -702,16 +702,14 @@ footer{
 	background: transparent;
 	float:left;
 	border-top: 1px solid lightgrey;
-	border-bottom:1px solid lightgrey;
 	display:block;
 }
 
 .subscribeBox{
 	min-height: 100px;
-	background:red;
 	width: 90%;
 	margin:30px auto ;
-	border: 10px solid grey;
+	border: 10px solid rgb(235,235,230);
 }
 
 .subscribeBox p {
@@ -733,14 +731,16 @@ footer{
 
 }
 
-.other div{
 
-}
 
 .openShopCon{
 	width: 20%;
 	float: left;
 	padding-right: 40px;
+}
+
+.openShopCon{
+	
 }
 
 .openShop{
